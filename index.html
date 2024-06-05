@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prova Otávio</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Prova Construção de software para web - 2° Bimestre</h1>
+        <p>Gustavo Prezotti Morelli</p>
+        <ul>
+            <li>Turma: CC1Mb</li>
+            <li>Semestre: 1°</li>
+            <li>Data: 05/06/2024</li>
+        </ul>
+
+        <form id="formulario">
+            <table>
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" id="nome" name="nome"></td>
+                </tr>
+                <tr>
+                    <td><label for="matricula">Matrícula:</label></td>
+                    <td><input type="text" id="matricula" name="matricula"></td>
+                </tr>
+                <tr>
+                    <td><label for="nota1">Nota 1° bimestre:</label></td>
+                    <td><input type="number" id="nota1" name="nota1" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td><label for="nota2">Nota 2° bimestre:</label></td>
+                    <td><input type="number" id="nota2" name="nota2" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button type="submit">Salvar</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1° bimestre</th>
+                    <th>Nota 2° bimestre</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="apagarDados">Apagar dados salvos</button>
+    
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
